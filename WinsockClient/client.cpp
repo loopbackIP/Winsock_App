@@ -15,7 +15,8 @@
 #define DEFAULT_PORT "27015"
 
 
-int main(int argc, char** argv) {
+int main() {
+    const char* hostname = "127.0.0.1";
     WSADATA wsaData;
     using Socket = SOCKET;
     Socket ConnectSocket = INVALID_SOCKET;
@@ -29,11 +30,11 @@ int main(int argc, char** argv) {
     int iResult;
     int recvbuflen = DEFAULT_BUFLEN;
 
-    // Validate the parameters
-    if (argc != 2) {
-        std::cout << "usage: " << argv[0] << " <hostname>\n";
-        return 1;
-    }
+    //// Validate the parameters
+    //if (argc != 2) {
+    //    std::cout << "usage: " << argv[0] << " <hostname>\n";
+    //    return 1;
+    //}
 
     // Initialize Winsock
     iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
@@ -48,7 +49,7 @@ int main(int argc, char** argv) {
     hints.ai_protocol = IPPROTO_TCP;
 
     // Resolve the server address and port
-    iResult = getaddrinfo(argv[1], DEFAULT_PORT, &hints, &result);
+    iResult = getaddrinfo(hostname, DEFAULT_PORT, &hints, &result);
     if (iResult != 0) {
         std::cerr << "getaddrinfo failed with error: " << iResult << std::endl;
         WSACleanup();

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36310.24 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinsockClient", "Winsock_App\Winsock_App.vcxproj", "{92285430-8E8F-4487-B296-4B5002C940B8}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinsockServer", "WinsockServer\WinsockServer.vcxproj", "{60004A52-1ED1-47E1-B384-0470679E6F7D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinsockClient", "WinsockClient\WinsockClient.vcxproj", "{C4F85192-D8EE-4151-B8E8-629276A4FD29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,14 +15,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{92285430-8E8F-4487-B296-4B5002C940B8}.Debug|x64.ActiveCfg = Debug|x64
-		{92285430-8E8F-4487-B296-4B5002C940B8}.Debug|x64.Build.0 = Debug|x64
-		{92285430-8E8F-4487-B296-4B5002C940B8}.Debug|x86.ActiveCfg = Debug|Win32
-		{92285430-8E8F-4487-B296-4B5002C940B8}.Debug|x86.Build.0 = Debug|Win32
-		{92285430-8E8F-4487-B296-4B5002C940B8}.Release|x64.ActiveCfg = Release|x64
-		{92285430-8E8F-4487-B296-4B5002C940B8}.Release|x64.Build.0 = Release|x64
-		{92285430-8E8F-4487-B296-4B5002C940B8}.Release|x86.ActiveCfg = Release|Win32
-		{92285430-8E8F-4487-B296-4B5002C940B8}.Release|x86.Build.0 = Release|Win32
 		{60004A52-1ED1-47E1-B384-0470679E6F7D}.Debug|x64.ActiveCfg = Debug|x64
 		{60004A52-1ED1-47E1-B384-0470679E6F7D}.Debug|x64.Build.0 = Debug|x64
 		{60004A52-1ED1-47E1-B384-0470679E6F7D}.Debug|x86.ActiveCfg = Debug|Win32
@@ -31,6 +23,14 @@ Global
 		{60004A52-1ED1-47E1-B384-0470679E6F7D}.Release|x64.Build.0 = Release|x64
 		{60004A52-1ED1-47E1-B384-0470679E6F7D}.Release|x86.ActiveCfg = Release|Win32
 		{60004A52-1ED1-47E1-B384-0470679E6F7D}.Release|x86.Build.0 = Release|Win32
+		{C4F85192-D8EE-4151-B8E8-629276A4FD29}.Debug|x64.ActiveCfg = Debug|x64
+		{C4F85192-D8EE-4151-B8E8-629276A4FD29}.Debug|x64.Build.0 = Debug|x64
+		{C4F85192-D8EE-4151-B8E8-629276A4FD29}.Debug|x86.ActiveCfg = Debug|Win32
+		{C4F85192-D8EE-4151-B8E8-629276A4FD29}.Debug|x86.Build.0 = Debug|Win32
+		{C4F85192-D8EE-4151-B8E8-629276A4FD29}.Release|x64.ActiveCfg = Release|x64
+		{C4F85192-D8EE-4151-B8E8-629276A4FD29}.Release|x64.Build.0 = Release|x64
+		{C4F85192-D8EE-4151-B8E8-629276A4FD29}.Release|x86.ActiveCfg = Release|Win32
+		{C4F85192-D8EE-4151-B8E8-629276A4FD29}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

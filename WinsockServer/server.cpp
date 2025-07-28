@@ -35,9 +35,6 @@ int main() {
     const char* certFile = "certs/server.crt";
     const char* keyFile = "certs/server.key";
 
-    // hummmmmm...
-    int iSendResult;
-    char recvbuf[DEFAULT_BUFLEN];
     int recvbuflen = DEFAULT_BUFLEN;
 
     // Initialize Winsock

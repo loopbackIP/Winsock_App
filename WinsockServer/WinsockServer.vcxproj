@@ -72,7 +72,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>C:\Program Files\OpenSSL-Win64\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Program Files\OpenSSL-Win64\lib\VC\x64\;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Program Files\OpenSSL-Win64\lib\VC\x64\MD;C:\Program Files\OpenSSL-Win64\lib\VC\x64\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

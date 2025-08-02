@@ -34,14 +34,6 @@ int main() {
     char recvbuf[DEFAULT_BUFLEN];
     int iResult;
 
-    //int recvbuflen = DEFAULT_BUFLEN;
-
-    //// Validate the parameters
-    //if (argc != 2) {
-    //    std::cout << "usage: " << argv[0] << " <hostname>\n";
-    //    return 1;
-    //}
-
     // Initialize Winsock
     iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (iResult != 0) {
